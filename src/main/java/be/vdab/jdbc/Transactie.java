@@ -23,7 +23,6 @@ public class Transactie {
         try (Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/beersdb?serverTimezone=UTC"
                 ,"root",passw);
-             //PreparedStatement stmt = con.prepareStatement(sql);
         ) {
             System.out.println("Connectie ok");
 
