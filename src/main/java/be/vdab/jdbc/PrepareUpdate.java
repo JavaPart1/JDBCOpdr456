@@ -13,7 +13,7 @@ public class PrepareUpdate {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        String passw = new Pass().passw;
+        String passw = new Pass().getPASSW();
         String sql = "UPDATE Beers SET Stock =? WHERE Name like '%kriek%'";
         try (Connection con = DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/beersdb?serverTimezone=UTC"

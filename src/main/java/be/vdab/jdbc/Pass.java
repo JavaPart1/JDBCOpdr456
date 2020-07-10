@@ -1,6 +1,9 @@
 package be.vdab.jdbc;
 
 public class Pass {
-    static String passw = "Kolokolsedesed1";
+    private static final String PASSW = "Kolokolsedesed1";
 
+    public static String getPASSW() {
+        return PASSW;
+    }
 }

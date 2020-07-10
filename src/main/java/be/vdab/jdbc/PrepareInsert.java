@@ -10,7 +10,7 @@ public class PrepareInsert {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        String passw = new Pass().passw;
+        String passw = new Pass().getPASSW();
         // SQL om uit te voeren
         String sql = "INSERT INTO Beers (Name,Alcohol,Price,Stock,BrewerId,CategoryId)" +
                 " VALUES ('MyBeer',12,3,100,20,42)";

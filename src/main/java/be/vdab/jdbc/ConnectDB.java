@@ -13,7 +13,7 @@ public class ConnectDB {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
-        String passw = new Pass().passw;
+        String passw = new Pass().getPASSW();
         String sql = "SELECT Name, Alcohol, Price FROM Beers";
         /*String sql = "SELECT a.Name, Category, Alcohol, Price, b.Name Brewer" +
                 " FROM Beers a INNER JOIN Brewers b ON a.BrewerId = b.Id" +
