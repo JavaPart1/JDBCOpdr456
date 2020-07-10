@@ -1,7 +1,8 @@
 package be.vdab.jdbc;
 
 import java.sql.*;
-import be.vdab.jdbc.Pass.*;
+
+import be.vdab.data.Pass;
 
 public class PrepareDB {
     public static void main(String[] args) {

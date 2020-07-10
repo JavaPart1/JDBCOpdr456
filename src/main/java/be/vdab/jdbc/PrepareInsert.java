@@ -1,5 +1,7 @@
 package be.vdab.jdbc;
 
+import be.vdab.data.Pass;
+
 import java.sql.*;
 
 public class PrepareInsert {
